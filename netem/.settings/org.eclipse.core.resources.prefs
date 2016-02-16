@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding/community.py=utf-8
+encoding/netem-agent.py=utf-8
+encoding/nodes-iptables-num.py=utf-8
+encoding/nodes-tc-iptables-wave.py=utf-8
+encoding/nodes-tc-num.py=utf-8
+encoding/packet_loss_rate.py=utf-8
