@@ -1,23 +1,8 @@
 #!/usr/bin/env python
 """
-The default drawing order for axes is patches, lines, text.  This
-order is determined by the zorder attribute.  The following defaults
-are set
-
-Artist                      Z-order
-Patch / PatchCollection      1
-Line2D / LineCollection      2
-Text                         3
-
-You can change the order for individual artists by setting the zorder.  Any
-individual plot() call can set a value for the zorder of that particular item.
-
-In the fist subplot below, the lines are drawn above the patch
-collection from the scatter, which is the default.
-
-In the subplot below, the order is reversed.
-
-The second figure shows how to control the zorder of individual lines.
+Draw a network topology 
+inputdata:(n1, n2) show the n1 connects n2
+Artist                      Melon Li
 """
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -85,8 +70,8 @@ x_l = t[0]
 y_l = t[1]
 
 t2 = add_access_nodes(x_l, y_l)
-# x_l = t2[0]
-# y_l = t2[1]
+x_l = t2[0]
+y_l = t2[1]
 
 # print "node number = %d" % len(set(x_l).union(set(y_l))) 
 # print set(x_l).union(set(y_l))
